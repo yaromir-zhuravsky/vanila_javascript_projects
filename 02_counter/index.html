@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form id="values" hidden></form>
+    <main>
+      <div class="container">
+        <div class="section section-center">
+          <h2>Counter</h2>
+          <span class="counter-value" id="value">0</span>
+          <input form="values" type="number" class="step" name='step' placeholder="Input step..." value="1">
+          <button href="" class="btn" id="decrease-btn">Decrease</button>
+          <button href="" class="btn" id="reset-btn">Reset to</button>
+          <input form="values" type="number" class="reset" name='reset' placeholder="Input reset value" value="0">
+          <button href="" class="btn" id="increase-btn">Increase</button>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
